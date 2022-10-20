@@ -7,7 +7,7 @@
 npm install -g newman
 ```
 
-## Run in Terminal
+## Run Testing API
 ```
 newman run Reqres.in.postman_collection.json -e reqres.postman_environment.json
 ```
