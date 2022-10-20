@@ -2,7 +2,12 @@
 
 ### Testing API using Postman (newman)
 
-Run in Terminal
+## Install newman on Windows
+```
+npm install -g newman
+```
+
+## Run in Terminal
 ```
 newman run Reqres.in.postman_collection.json -e reqres.postman_environment.json
 ```
